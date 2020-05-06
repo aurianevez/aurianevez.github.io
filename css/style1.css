@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'indira';
+    src: url('indira_k-webfont.woff2') format('woff2'),
+         url('indira_k-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3{
+font-size: 1.9vw;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:after{
+  color: black;
+}
+
+a:hover{
+  color:turquoise;
+}
+
+
+.container-header{
+  display: flex;
+  flex-direction: column;
+  width: 90%
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 26%;
+  width: 55%;
+  position: relative;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 27%;
+  width: 57%;
+  text-align: center;
+}
+
+.container-aa{
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.containercircle{
+display: flex;
+flex-direction: row;
+padding-bottom: 50px;
+}
+
+.headspace{
+  margin-top: 7%;
+}
+
+.main-header h1{
+  text-align: left;
+  font-size: 10vw;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  margin-left: 27%;
+  font-family: "indira";
+}
+
+body{
+  color: black;
+  font-size: 1.3vw;
+  font-weight: lighter;
+  font-family:"Andale Mono", monospace;
+}
+
+
+.sub{
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.sub i{
+  padding-bottom: 5%;
+  font-family:"indira";
+}
+
+.sub h2{
+font-size: 1.6vw;
+}
+
+.intro{
+  text-align: justify;
+  padding-bottom: 10%;
+  line-height: 1.6em;
+}
+
+.intro i{
+  text: italic;
+  font-size: 1vw;
+}
+
+.intro p{
+font-size: 1.1vw;
+}
+
+#har h4{
+  padding-left: 5px;
+}
+
+
+#edu h3{
+  padding-top: 70px;
+
+}
+
+#edu h4{
+  text-align: left;
+  font-size: 1.2vw;
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+
+
+
+#edu p{
+  font-weight: normal;
+  text-align: justify;
+  padding-left: 32px;
+  line-height: 1.6em;
+  font-size: 1.1vw;
+}
+
+
+#edu i{
+  padding-top: 20px;
+  padding-bottom: 60px;
+
+}
+
+#edu #bach h5{
+font-weight: normal;
+padding-bottom: 1px;
+}
+#edu #bach p{
+  padding-left: 34px;
+}
+
+
+
+#volu h4 {
+  padding-top: 40px;
+  text-align: left;
+}
+
+#volu p{
+  text-align: justify;
+  padding-left: 22px;
+  line-height: 1.6em;
+  font-size: 1.05vw;
+  padding-bottom: 20px;
+}
+
+#volu i{
+margin-left: 25px;
+}
+
+#volu h3 {
+padding-top: 50px;
+padding-bottom: 20px;
+margin-left: 25px;
+}
+
+#volu h6{
+text-align: left;
+font-size:  1.2vw;
+padding-left: 22px;
+margin-bottom: 0px;
+margin-top: 10px;
+}
+
+#volu iframe{
+padding-bottom: 20px;
+}
+
+#bio h4{
+  padding-left: 33px;
+}
+
+#space h5{
+  padding-bottom: 70px;
+}
+
+
+#infos i{
+  padding-bottom: 60px;
+}
+
+#infos p{
+  text-align: justify;
+  padding-bottom: 20px;
+  line-height: 1.6em;
+  font-size: 1.1vw;
+}
+
+#infos h3{
+  padding-top: 120px;
+}
+
+#img{
+  position: relative;
+  margin-left: 27%;
+  margin-bottom: 10%;
+  }
+
+#imginfos{
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+#infos h4{
+  font-weight: normal;
+}
+
+#infos h5{
+    font-weight: normal;
+    font-style: italic;
+}
+
+#we p{
+padding-left: 0px;
+}
+
+#space h5{
+padding-bottom: 70px;
+}
+
+#space p{
+padding-bottom: 70px;
+}
+
+#title h4{
+font-size: 1.5vw;
+padding-top: 30px;
+padding-left: 10px;
+text-align: left;
+}
+
+#skills i{
+padding-bottom: 0px;
+}
+
+#skills h3{
+padding-top: 60px;
+}
+
+#skills h4{
+font-size: 1.45vw;
+}
+
+#skills p{
+  text-align: justify;
+  font-size: 1.1vw;
+  padding-left: 21px;
+  line-height: 1.6em;
+}
+
+#navbar{
+  position: fixed;
+  top: 38%;
+  font-family:"indira";
+}
+
+#containernav li{
+  padding-top: 7%;
+  list-style: none;
+  font-weight: 600;
+}
+
+#comment p{
+font-size: 0.9vw;
+font-style: italic;
+padding-top: 30px;
+}
+@media (max-width: 1000px){
+  #navbar{
+    position:absolute;
+    top: 20%
+  }
+}
